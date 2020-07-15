@@ -1,0 +1,23 @@
+{
+  "name": "node-minin",
+  "version": "1.0.0",
+  "description": "learn Node with Minin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Andrey Kudryashov <ayk-82@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

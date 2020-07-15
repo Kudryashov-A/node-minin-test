@@ -1,0 +1,11 @@
+const os = require('os')
+
+console.log('Операционка:', os.platform())
+console.log('Архитектура проца:', os.arch())
+// console.log('Хар-ки проца:', os.cpus())
+console.log('Свободная память:', os.freemem())
+console.log('Всего памяти:', os.totalmem())
+console.log('Домашняя папка:', os.homedir())
+console.log('Хост:', os.hostname())
+console.log('Uptime:', os.uptime())
+console.log('Userinfo:', os.userInfo())
